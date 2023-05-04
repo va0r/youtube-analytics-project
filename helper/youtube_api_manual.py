@@ -2,8 +2,12 @@ import json
 import os
 
 import isodate
-# необходимо установить через: pip install google-api-python-client
+from dotenv import load_dotenv
 from googleapiclient.discovery import build
+
+from env_sett import ENV_FILE
+
+load_dotenv(ENV_FILE)
 
 # YT_API_KEY скопирован из гугла и вставлен в переменные окружения
 api_key: str = os.getenv('YT_API_KEY')
