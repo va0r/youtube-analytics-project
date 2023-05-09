@@ -1,0 +1,57 @@
+{
+    "_Channel__channel_id": "UCMCgOm8GZkHp8zJ6l7_hIuA",
+    "channel": {
+        "kind": "youtube#channelListResponse",
+        "etag": "huj41A5KwDlWu_d7vZDaIYezPHk",
+        "pageInfo": {
+            "totalResults": 1,
+            "resultsPerPage": 5
+        },
+        "items": [
+            {
+                "kind": "youtube#channel",
+                "etag": "WpLlCHrQS0Y1DwrAIEXHqZXbAt8",
+                "id": "UCMCgOm8GZkHp8zJ6l7_hIuA",
+                "snippet": {
+                    "title": "вДудь",
+                    "description": "Здесь задают вопросы",
+                    "customUrl": "@vdud",
+                    "publishedAt": "2014-01-03T06:27:22Z",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://yt3.ggpht.com/ytc/AGIKgqP7ZdK1_dZYqq6_mrzpDPfbrXYCqt-9bUnGVyAI=s88-c-k-c0x00ffffff-no-rj",
+                            "width": 88,
+                            "height": 88
+                        },
+                        "medium": {
+                            "url": "https://yt3.ggpht.com/ytc/AGIKgqP7ZdK1_dZYqq6_mrzpDPfbrXYCqt-9bUnGVyAI=s240-c-k-c0x00ffffff-no-rj",
+                            "width": 240,
+                            "height": 240
+                        },
+                        "high": {
+                            "url": "https://yt3.ggpht.com/ytc/AGIKgqP7ZdK1_dZYqq6_mrzpDPfbrXYCqt-9bUnGVyAI=s800-c-k-c0x00ffffff-no-rj",
+                            "width": 800,
+                            "height": 800
+                        }
+                    },
+                    "localized": {
+                        "title": "вДудь",
+                        "description": "Здесь задают вопросы"
+                    }
+                },
+                "statistics": {
+                    "viewCount": "1995742725",
+                    "subscriberCount": "10300000",
+                    "hiddenSubscriberCount": false,
+                    "videoCount": "168"
+                }
+            }
+        ]
+    },
+    "title": "вДудь",
+    "description": "Здесь задают вопросы",
+    "url": "https://www.youtube.com/channel/UCMCgOm8GZkHp8zJ6l7_hIuA",
+    "video_count": "168",
+    "view_count": "1995742725",
+    "subscriber_count": 10300000
+}
