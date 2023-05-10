@@ -53,3 +53,48 @@ class Channel:
         """
         with open(filename, 'w', encoding='utf-8') as file:
             json.dump(self.__dict__, file, ensure_ascii=False, indent=4)
+
+    def __str__(self):
+        return f"{self.title}, ({self.url})"
+
+    def __add__(self, redactsiya) -> int:
+        if isinstance(redactsiya, Channel):
+            return self.subscriber_count + redactsiya.subscriber_count
+        else:
+            raise TypeError("ERROR")
+
+    def __sub__(self, redactsiya) -> int:
+        if isinstance(redactsiya, Channel):
+            return self.subscriber_count - redactsiya.subscriber_count
+        else:
+            raise TypeError("ERROR")
+
+    def __gt__(self, redactsiya):  # >
+        if isinstance(redactsiya, Channel):
+            return self.subscriber_count > redactsiya.subscriber_count
+        else:
+            raise TypeError("ERROR")
+
+    def __ge__(self, redactsiya) -> int:  # >=
+        if isinstance(redactsiya, Channel):
+            return self.subscriber_count >= redactsiya.subscriber_count
+        else:
+            raise TypeError("ERROR")
+
+    def __lt__(self, redactsiya):  # <
+        if isinstance(redactsiya, Channel):
+            return self.subscriber_count < redactsiya.subscriber_count
+        else:
+            raise TypeError("ERROR")
+
+    def __le__(self, redactsiya):  # <=
+        if isinstance(redactsiya, Channel):
+            return self.subscriber_count <= redactsiya.subscriber_count
+        else:
+            raise TypeError("ERROR")
+
+    def __eq__(self, redactsiya):  # ==
+        if isinstance(redactsiya, Channel):
+            return self.subscriber_count == redactsiya.subscriber_count
+        else:
+            raise TypeError("ERROR")
